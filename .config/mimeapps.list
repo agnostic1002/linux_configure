@@ -1,0 +1,9 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-7UCEUX.desktop
+message/rfc822=userapp-Thunderbird-7UCEUX.desktop
+application/x-extension-eml=userapp-Thunderbird-7UCEUX.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-7UCEUX.desktop;
+message/rfc822=userapp-Thunderbird-7UCEUX.desktop;
+application/x-extension-eml=userapp-Thunderbird-7UCEUX.desktop;

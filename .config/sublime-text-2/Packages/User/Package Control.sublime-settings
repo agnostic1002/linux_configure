@@ -1,0 +1,12 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"NCL",
+		"Package Control",
+		"PackageResourceViewer",
+		"Theme - Brogrammer"
+	]
+}

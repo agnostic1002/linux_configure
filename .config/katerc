@@ -1,0 +1,34 @@
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+
+[MainWindow]
+Height 768=748
+State=AAAA/wAAAAD9AAAAAAAABVIAAALGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1366
+Window-Maximized 768x1366=true
+
+[Shortcuts]
+kate_mdi_toolview_kate_plugin_katesearch=none
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+
+[filetree]
+editShade=210,181,216
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=185,178,206

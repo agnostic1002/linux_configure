@@ -1,0 +1,36 @@
+[KFileDialog Settings]
+Height 768=420
+Recent Files[$e]=$HOME/Pictures/lock.png,$HOME/Pictures/lock.png
+Recent URLs[$e]=$HOME/Pictures/,$HOME/Pictures/
+Width 1366=803
+
+[MainWindow]
+Height 768=768
+State=AAAA/wAAAAD9AAAAAAAABVYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1366
+
+[Recent Files]
+File1[$e]=$HOME/ServerJob/climate trend.png
+File2[$e]=$HOME/Career/R/QQ截图20150126162131.jpg
+File3[$e]=$HOME/Taylor/taylor_cmip5.png
+File4[$e]=$HOME/SRTP/SRTP_new/climate_station_minus.png
+File5[$e]=$HOME/Pictures/3_140703154244_1.jpg
+File6[$e]=$HOME/Pictures/20130426042713483.jpg
+File7[$e]=$HOME/Pictures/a594878ec1.jpg
+Name1[$e]=climate trend.png
+Name2[$e]=QQ截图20150126162131.jpg
+Name3[$e]=taylor_cmip5.png
+Name4[$e]=climate_station_minus.png
+Name5[$e]=3_140703154244_1.jpg
+Name6[$e]=20130426042713483.jpg
+Name7[$e]=a594878ec1.jpg
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=true

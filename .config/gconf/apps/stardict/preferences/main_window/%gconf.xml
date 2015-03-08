@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="hide_list" mtime="1425400751" type="bool" value="false"/>
+</gconf>

@@ -1,0 +1,133 @@
+{
+  "quick_start_guide_added": true, 
+  "library_usage_stats": {
+    "/home/agnostic/Calibre Library": 2
+  }, 
+  "previous_sort_order_BooksView": {
+    "tags": false
+  }, 
+  "bulk_metadata_window_tab": 0, 
+  "book_details_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "grid view visible": false, 
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAC6AAAAIwAABJsAAALbAAAAvAAAADoAAASZAAAC1wAAAAAAAAAABVY="
+  }, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAEPAAAAtgAAAuQAAAJLAAABEQAAAM0AAALiAAACRwAAAAAAAAAABVY="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    200
+  ], 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "bulk_metadata_window_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAADIAAAAMAAABI0AAALPAAAAygAAAEcAAASLAAACywAAAAAAAAAABVY="
+  }
+}

@@ -1,0 +1,391 @@
+==============================================
+KeepNote 0.7.8: Mon Feb 23 14:11:50 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Mon Feb 23 14:12:09 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+Traceback (most recent call last):
+  File "/usr/bin/keepnote", line 437, in <module>
+    main(sys.argv)
+  File "/usr/bin/keepnote", line 423, in main
+    start_gui(argv, options, args, cmd_exec)
+  File "/usr/bin/keepnote", line 277, in start_gui
+    gtk.main()
+KeyboardInterrupt
+==============================================
+KeepNote 0.7.8: Mon Feb 23 17:35:03 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Mon Feb 23 23:36:28 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Tue Feb 24 22:46:52 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+/usr/lib/python2.7/site-packages/keepnote/gui/basetreeview.py:685: GtkWarning: gtk_tree_model_sort_iter_nth_child: assertion 'VALID_ITER (parent, tree_model_sort)' failed
+  self.set_cursor(path)
+/usr/lib/python2.7/site-packages/keepnote/gui/basetreeview.py:685: GtkWarning: gtk_tree_model_sort_real_unref_node: assertion 'VALID_ITER (iter, tree_model_sort)' failed
+  self.set_cursor(path)
+node bc6224da-42ad-4ae3-9bc9-678649e21207 not found
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 374, in remove_node
+    self.cur.execute(u"DELETE FROM NodeGraph WHERE nodeid=?", (nodeid,))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/gui/basetreeview.py", line 931, in _do_paste_nodes
+    node.move(parent)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 833, in move
+    return self._move_notebooks(parent, index)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 897, in _move_notebooks
+    self.delete()
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 763, in delete
+    self._parent._remove_child(self)
+AttributeError: 'NoneType' object has no attribute '_remove_child'
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+node ['bc6224da-42ad-4ae3-9bc9-678649e21207'] not found
+Unmanaged change detected. Reindexing '/home/agnostic/Diary/r_study'
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/gui/basetreeview.py", line 931, in _do_paste_nodes
+    node.move(parent)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 833, in move
+    return self._move_notebooks(parent, index)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 897, in _move_notebooks
+    self.delete()
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 760, in delete
+    walk(self)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 758, in walk
+    walk(child)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 759, in walk
+    self._conn.delete_node(node._attr["nodeid"])
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/__init__.py", line 875, in delete_node
+    _(u"Do not have permission to delete"), e)
+ConnectionError: Do not have permission to delete
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+/usr/lib/python2.7/site-packages/keepnote/gui/icon_menu.py:117: GtkWarning: IA__gtk_widget_realize: assertion 'GTK_WIDGET_ANCHORED (widget) || GTK_IS_INVISIBLE (widget)' failed
+  self.realize()
+/usr/lib/python2.7/site-packages/keepnote/gui/colortool.py:324: GtkWarning: IA__gtk_widget_realize: assertion 'GTK_WIDGET_ANCHORED (widget) || GTK_IS_INVISIBLE (widget)' failed
+  self.realize()
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/connection/fs/index.py", line 121, in save
+    (mtime, self._nconn.get_rootid()))
+OperationalError: attempt to write a readonly database
+==============================================
+KeepNote 0.7.8: Tue Feb 24 23:59:12 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/keepnote/gui/__init__.py", line 539, in open_notebook
+    version = notebooklib.get_notebook_version(filename)
+  File "/usr/lib/python2.7/site-packages/keepnote/notebook/__init__.py", line 246, in get_notebook_version
+    raise NoteBookError(_("Cannot read notebook preferences"), e)
+NoteBookError: IOError(2, 'No such file or directory')
+Cannot read notebook preferences
+==============================================
+KeepNote 0.7.8: Wed Feb 25 19:47:48 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+Unmanaged change detected. Reindexing '/home/agnostic/Diary'
+==============================================
+KeepNote 0.7.8: Wed Feb 25 23:35:20 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Thu Feb 26 14:48:54 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Thu Feb 26 19:49:38 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Thu Feb 26 20:16:02 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Thu Feb 26 23:21:58 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Fri Feb 27 12:56:53 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Sat Feb 28 10:41:21 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Sat Feb 28 21:16:06 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Mon Mar  2 12:58:41 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Sun Mar  8 14:28:42 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Sun Mar  8 14:47:32 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'
+==============================================
+KeepNote 0.7.8: Sun Mar  8 18:01:32 2015
+enabling extension 'keepnote'
+enabling extension 'backup_tar'
+enabling extension 'new_file'
+enabling extension 'editor_insert_date'
+enabling extension 'command_basics'
+enabling extension 'export_html'
+enabling extension 'python_prompt'
+enabling extension 'notebook_http'

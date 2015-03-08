@@ -1,0 +1,7 @@
+[color]
+	ui = true
+[core]
+	editor = vim
+[user]
+	name = Alpha
+	email = 3120104082@zju.edu.cn
